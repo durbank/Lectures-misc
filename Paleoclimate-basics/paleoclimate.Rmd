@@ -1,8 +1,8 @@
 ---
 title: "Paleoclimate"
-subtitle: 'Geomorphology and ice core proxies'
+subtitle: 'Understanding past climate through the cryosphere'
 author: "Durban G Keeler"
-date: "4/17/2018"
+date: "16 April 2019"
 output: 
   beamer_presentation:
     theme: 'Madrid'
@@ -15,12 +15,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Overview
 
-- Introduction to paleoclimate
-- Glacial geomorphology
-- Stable water isotopes
-- Ice core reconstructions
+- Introduction to paleoclimatology
+    - Brief overview of history of Earth's climate
+- Introduction to temperature proxy records
+- Glaciology-specific temperature proxy records
+    - Glacial geomorphology
+    - Ice core reconstructions
 
-## Paleoclimate
+## Paleoclimatology
 
 - Study of the climate (temperature, moisture, wind vectors, etc.) prior to direct, quantitative observations of climatological variables
 
@@ -28,6 +30,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Paleoclimate
 
+- What's the difference between climatology and paleoclimatology
 - How do we measure temperature?
 
 ## Paleoclimate
@@ -36,52 +39,54 @@ knitr::opts_chunk$set(echo = FALSE)
     - Mercury displacement (traditional thermometers)
     - Changes in electrical properties (digital thermometers)
     - Emission spectrum (satellites, infrared sensors)
-    
-- Direct temperature measurements only go back a few hundred years
 
+## Paleoclimate
+
+- Direct temperature measurements only go back a few hundred years
 - How can we estimate temperature before thermometers?
-    - Proxies
 
 ## Paleoclimate proxies
 
-- An indiect measurement of a variable (i.e. the proxy) that is correlated with some other variable of interest (e.g. temperature)
+- An indirect measurement of a variable (i.e. the proxy) that is correlated with some other variable of interest (e.g. temperature)
 
 - Percentage of people wearing a coat
+
+## Paleoclimate proxies
 
 - Examples of temperature proxies:
     - Coral distributions
     - Tree ring widths
     - Types and fequency of vegetation/pollen
+    - Fossil assemblages
+    - Marine sediment records
+    - Geologic units and transitions
+
+## Brief overview of Earth's climate history
+
+![Mean global Earth temperature 540 Ma to present. (Source: https://commons.wikimedia.org/wiki/File:All_palaeotemps.png)](Figures/All_palaeotemps.png)
+
+----
+
+![](Figures/Phanerozoic_Climate_Change.png)
+
+----
+
+![Mean global Earth temperature 540 Ma to present. (Source: https://commons.wikimedia.org/wiki/File:All_palaeotemps.png)](Figures/All_palaeotemps.png)
+
+----
+
+- Focus on two specific temperature proxies
+    - What are they
+    - How they work
+    - Advantages and limitations
     
-- Focus on two specific proxies
-    - Glacial geomorphology
-    - Isotopes in ice cores
+    
+- Glacial geomorphology
+- Isotopes in ice cores
     
 ## Glacial geomorphology
 
 ![](Figures/GlacierLg.jpg)
-
-## Glacial geomorphology
-
-- Changes in landscape due to presence or changes in nearby glaciers
-    - Glacier valleys
-    - Moraines
-    - Meltwater planes
-    - Glacial scouring
-    - Glacial erratics
-
-----
-
-Example of glacial erratic
-
-![](Figures/boulder_erratic.jpg)
-
-----
-
-Example of glacial scour
-
-![](Figures/scour.jpg)
-
 
 ## Review of glacier mass balance
 
@@ -100,7 +105,26 @@ $\dot{b} = accumulation - ablation$
 
 ![](Figures/glacier_mass_balance_456.png)
 
+## Glacial geomorphology
+
+- Changes in landscape due to presence of or changes in nearby glaciers
+    - Glacier valleys
+    - Moraines
+    - Meltwater planes
+    - Glacial scouring
+    - Glacial erratics
+
 ----
+
+Example of glacial erratic
+
+![](Figures/boulder_erratic.jpg)
+
+----
+
+Example of glacial scour
+
+![](Figures/scour.jpg)
 
 ## Moraines
 
@@ -124,6 +148,25 @@ $\dot{b} = accumulation - ablation$
 
 ![](Figures/moraine_map.png)
 
+----
+
+- Glacial geomorphology used to determine relative age/magnitudes of the glacial advances
+- Our earliest understanding of ice ages came largely from studies of glacial geomorphology
+
+Timeline of ice ages
+
+| Glaciation stadial | Time |
+| ------------------ | ---- |
+| Last Glacial Period (Wisconsinan Stage) |~115 ka to 11.7 ka |
+| Penultimate Glacial Period (Illinoian Stage) | ~194 ka to ~135 ka |
+
+- Any ideas on how they got those names?
+  - Locations of major moraine sets used to determine the ice age!
+  
+----
+
+![](Figures/Moraine_Composite.jpg)
+
 ## Complications
 
 - Different glaciers respond to climate differently
@@ -136,6 +179,10 @@ $\dot{b} = accumulation - ablation$
 ## Ice cores
 
 ![](Figures/ice_core.jpg)
+
+## Ice cores
+
+![](Figures/core_montage.jpg)
 
 ## Stable water isotopes
 
@@ -225,35 +272,38 @@ $$\delta^{18}O \approx 0.62 \cdot T - 15.25$$
 
 ## Paleoclimate reconstruction
 
-![](Figures/core_montage.jpg)
-
-----
-
 ![](Figures/core_count.png)
 
 ----
 
 ## Paleoclimate reconstruction
 
-![](Figures/Greenland+Ice+Core+d18O+and+Temperature+Record.jpg)
-
-----
 
 ![](Figures/Temperature_volume.png)
 
-----
+
+## Advantages of ice core reconstructions
+
+- Very high resolution (annually resolved for 10s of 100s of thousands of years)
+- Highly correlated with temperature (very good proxy)
+- Many other records can be extracted as well
+    - Dust content
+    - Aerosals
+    - Atmospheric composition
+
+## Complications
+
+- Mostly limited to polar regions
+- Complications in flowing ice
+- Limited to ~1 Ma or later
+- Other chemical interactions can affect isotope values
+- Subject to high frequency variability (not always regionally representative)
+
+## Future climate scenarios
 
 ![](Figures/vostok-temp-vs-co2.png)
 
+## Summary
 
-# Brainstorm
 
-- How do we know what the climate was in the past?
-- What was climate like in the past?
-- What will it be in the future?
 
-## How do we know
-
-- Glacial geomorphology
-- Ice cores
-- 
